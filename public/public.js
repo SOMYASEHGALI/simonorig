@@ -11,7 +11,7 @@ let yellow = document.querySelector("#yellow");
 let purple = document.querySelector("#purple");
 let green = document.querySelector("#green");
 
-document.addEventListener("keypress", function () {
+document.addEventListener("click", function () {
     if (!started) {
         console.log("game is started");
         started = true;
